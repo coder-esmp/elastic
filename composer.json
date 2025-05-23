@@ -1,0 +1,19 @@
+{
+  "name": "esmp/elastic",
+  "type": "library",
+  "license": "MIT",
+  "description": "Webman plugin esmp/elastic",
+  "require": {
+    "elasticsearch/elasticsearch": "^8.17",
+    "illuminate/pagination": "^12.15",
+    "illuminate/events": "^12.14",
+    "symfony/var-dumper": "^7.2",
+    "webman/console": "^2.1",
+    "webman/database": "^2.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Esmp\\Elastic\\": "src"
+    }
+  }
+}
